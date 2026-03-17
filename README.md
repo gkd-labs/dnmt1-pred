@@ -10,12 +10,7 @@ This repository provides comprehensive machine learning pipelines used for predi
 4. **Feature Selection**: Employs `Chi-square statistical test` to select the top 50 most informative MACCS fingerprints.
 5. **Data Scaling**: Applies `MinMaxScaler` to normalize all molecular features (descriptors and fingerprints).
 6. **Linear Regression Based Soft Filter**: Applies Linear Regression as a soft filter to remove molecules that pose high level of prediction uncertainties. The filter molecules are those that are likely to fall on the decision boundary. This method improved model performance and robustness. This study compared the performances of models in seprate notebooks for when this filter was used and when it wasn't used.
-7. **Model Training**: Implements and evaluates 5 well known chemoinformatics-based performing machine learning classifiers, including:
-   a. eXtreme Gradient Boosting (XGBoost)
-   b. Support Vector Machine (SVM)
-   c. Logistic Regression
-   d. Gaussian Naive Bayes
-   e. Gradient Boosting Machines (GBM)
+7. **Model Training**: Implements and evaluates 5 well known chemoinformatics-based performing machine learning classifiers, including: eXtreme Gradient Boosting (XGBoost), Support Vector Machine (SVM), Logistic Regression (LR), Gaussian Naive Bayes (GNB), and Gradient Boosting Machines (GBM)
 8. **Comprehensive Evaluation**: Reports key classification metrics such as Accuracy, Precision, Recall, F1-Score, AUC, MCC, Balanced Accuracy, and also performs 10-fold cross-validation for robust performance estimation.
 9. **Applicability Domain (AD) Analysis**: Generates Williams plots for each model to visualize their applicability domain, indicating the region within which predictions are considered reliable.
 
