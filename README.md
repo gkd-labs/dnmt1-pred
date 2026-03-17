@@ -18,7 +18,7 @@ All model weights including the linear regression soft filter weights, the Chi s
 
 **To systematically replicate the experiment conducted and presented in this repository, follow these key steps:**
 
-1.  **Clone this repository** .
+1. Clone this repository.
 2. Open the notebook file of your choice from the notebooks folder in this repository and systematically execute each cell. The scripts have been organized in a step-by-step manner and easy to follow. The DNMT1 bioactivity data retrieved from PubChem together with the downloaded molecule data from PubChem from which the SMILES were obtained have also been provided in the datasets folder in the repository. Ensure all directories have been set to your preferred path.
 
    
