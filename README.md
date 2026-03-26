@@ -20,6 +20,5 @@ All model weights including the linear regression soft filter weights, the Chi s
 
 1. Clone this repository.
 2. Open the notebook file of your choice from the notebooks folder in this repository and systematically execute each cell. The scripts have been organized in a step-by-step manner and easy to follow. The DNMT1 bioactivity data retrieved from PubChem together with the downloaded molecule data from PubChem from which the SMILES were obtained have also been provided in the datasets folder in the repository. Ensure all directories have been set to your preferred path. The actual training, testing and validation datasets used in training when the soft filter was used and when was not used have also been provided in the datasets folder. Datasets used in training with the filter has the keyword `WITH_FILTER` and those used in training without the filter was the keyword `WITHOUT_FILTER`.
-
    
 **Logistic Regression, XGBoost, Support Vector Machine and Gradient Boosting Machine, competitively performed well and have been deployed as a web application available at https://dnmt1pred.onrender.com/**
